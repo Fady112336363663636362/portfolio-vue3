@@ -1,30 +1,20 @@
 <template>
-  <div
-    class="min-h-screen font-sans text-black transition-colors bg-white dark:bg-gray-900 dark:text-white"
-  >
-    <Header @search-city="city = $event" />
-
-    <main class="grid grid-cols-1 gap-4 p-4 lg:grid-cols-3">
-      <section class="space-y-4 lg:col-span-1">
-        <CurrentWeather :city="city" />
-        <ForecastList :city="city" />
-      </section>
-
-      <section class="space-y-4 lg:col-span-2">
-        <Highlights :city="city" />
-      
-        <TodayAt :city="city" />
-      </section>
-    </main>
+  <div class="bg-[#1f242d] min-h-screen">
+    <Navbar />
+    <HeroSection  />
+    <Skills/>
+    <Experience/>
+    <Project/>
+    <Contact/>
   </div>
 </template>
-<script setup>
-import { ref } from "vue";
-import Header from "./components/Header.vue";
-import CurrentWeather from "./components/CurrentWeather.vue";
-import ForecastList from "./components/ForecastList.vue";
-import Highlights from "./components/Highlights.vue";
-import TodayAt from "./components/TodayAt.vue";
 
-const city = ref("Cairo");
+<script setup>
+import Navbar from './components/Navbar.vue'
+import HeroSection from './components/HeroSection.vue'
+import Skills from './components/Skills.vue';
+import Experience from './components/Experience.vue';
+import Project from './components/Project.vue';
+import Contact from './components/Contact.vue';
+
 </script>
