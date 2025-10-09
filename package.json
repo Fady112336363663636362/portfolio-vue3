@@ -1,6 +1,7 @@
 {
-  "name": "weather-app",
-  "version": "0.0.1",
+  "name": "portfolio-vue3",
+  "version": "1.0.0",
+  "homepage": "https://Fady112336363663636362.github.io/portfolio-vue3",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
