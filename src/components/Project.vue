@@ -86,7 +86,7 @@ const projects = ref([
       recommendations tailored to the user’s goals and available ingredients. 
       It helps users choose healthy meals and track their diet progress.`,
     tech: "Vue | Tailwind | Gemini AI | Firebase | REST API",
-    image: "/mit.png",
+    image: "mit.png",
     github: "https://github.com/yourusername/smartmeal",
   },
   {
