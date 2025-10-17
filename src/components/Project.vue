@@ -1,5 +1,9 @@
 <template>
-  <section id="portfolio" class="bg-[#1f242d] text-white py-20" data-aos="zoom-in">
+  <section
+    id="portfolio"
+    class="bg-[#1f242d] text-white py-20"
+    data-aos="zoom-in"
+  >
     <div class="relative px-6 mx-auto max-w-7xl">
       <h1 class="mb-6 text-4xl font-bold text-center">
         <span class="text-[#00ff51]">Diverse </span>
@@ -30,7 +34,7 @@
           <p class="text-[#00ff51] font-semibold mb-6">
             {{ projects[currentIndex].tech }}
           </p>
-          <hr class="mb-5 " />
+          <hr class="mb-5" />
           <a
             href="https://github.com/Fady112336363663636362"
             target="_blank"
